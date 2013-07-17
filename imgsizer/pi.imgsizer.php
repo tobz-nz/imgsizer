@@ -15,7 +15,7 @@ $plugin_info = array(
 class Imgsizer
 {
 
-	var $return_data = "";
+	public $return_data = "";
 
 	/**
 	* Support for EE prior to 2.1.3
