@@ -12,4 +12,4 @@ Please note that I do not intend to part ImgSizer or to maintain it, but I thoug
 
 - Switched to constructor syntax
 - Loaded CI string helper
-- Replaced all occurences of `$this->EE->functions->remove_double_slashes()` by `reduce_double_slashes()`
+- Replaced all occurences of `$this->EE->functions->remove_double_slashes()` with `reduce_double_slashes()`
