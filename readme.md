@@ -6,7 +6,9 @@ I generally use CE Image these days but I have a few old ExpressionEngine sites 
 
 After upgrading those sites to EE 2.6.1, I had a ton of developer_log warnings about ImgSizer using some deprecated functions. Patching it was easy enough so I did it.
 
-Please note that I do not intend to part ImgSizer or to maintain it, but I though sharing the patch could be useful for others.
+Please note that I do not intend to port ImgSizer to EE2 or to maintain it, but I though sharing the patch could be useful for others.
+
+Now I have another reason to redesign those sites.
 
 ## Changelog
 
