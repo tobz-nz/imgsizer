@@ -741,9 +741,12 @@ function do_remote($img){
 				} else {
 					curl_close($ch);
 				}
-
-				define("FILE_PUT_CONTENTS_ATOMIC_TEMP", $save_dir);
-				define("FILE_PUT_CONTENTS_ATOMIC_MODE", 0777);
+				
+				if (defined("FILE_PUT_CONTENTS_ATOMIC_TEMP")==false) {
+					define("FILE_PUT_CONTENTS_ATOMIC_TEMP", $save_dir);
+					define("FILE_PUT_CONTENTS_ATOMIC_MODE", 0777);
+				}
+				
 				$this->file_put_contents_atomic($save_root_path, $file_contents);
 
 
